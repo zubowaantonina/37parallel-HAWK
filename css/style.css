@@ -622,7 +622,7 @@ padding-right: 10px; */
     margin-top: 1.25rem;
   }
   .team-text {
-   
+    font-weight: 500;
     font-size: 1.16rem;
     line-height: 1.1875rem;
   }
@@ -643,6 +643,7 @@ padding-right: 10px; */
   .image3{
     margin-top: .625rem;
   }
+  
 }
 
 /*---------------------------------------------------------*/
