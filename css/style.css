@@ -756,6 +756,7 @@ padding-right: 10px; */
   .list {
     font-size: 0.8375rem;
     line-height: 1.05rem;
+    width: 25rem;
   }
   .foto-item:nth-child(4) img {
     height: 9.1875rem;
