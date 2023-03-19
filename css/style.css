@@ -640,6 +640,9 @@ padding-right: 10px; */
     height: 8.3rem;
     width: 12.1rem;
   }
+  .image3{
+    margin-top: .625rem;
+  }
 }
 
 /*---------------------------------------------------------*/
@@ -648,7 +651,7 @@ padding-right: 10px; */
     width: 25rem;
   }
   .container {
-    width: 25rem;
+    max-width: 25rem;
   }
   .header {
     background-position: 0 0.625rem;
@@ -693,7 +696,7 @@ padding-right: 10px; */
   .header-logo {
     position: absolute;
     top: 0.3375rem;
-    right: 0.3375rem;
+    right: 0.9375rem;
   }
   .header-logo img {
     width: 2.4125rem;
@@ -710,6 +713,7 @@ padding-right: 10px; */
     grid-template-rows: auto;
     justify-content: center;
     align-content: start;
+    margin: 0 auto;
   }
   .images1 {
     /* grid-area: image1; */
@@ -720,19 +724,27 @@ padding-right: 10px; */
     /* grid-area: text1; */
     grid-area: 2 / 1 / 3 / 2;
     align-self: center;
+    justify-self: center;
+    /* display: flex;
+    justify-content: center; */
   }
   .text-item2 {
     /* grid-area: text2; */
     grid-area: 4 / 1 / 5 / 2;
+    align-self: center;
+    justify-self: center;
   }
   .text-item3 {
     /* grid-area: text3; */
     grid-area: 5 / 1 / 6 / 2;
     align-self: center;
+    justify-self: center;
   }
   .text-item4 {
     /* grid-area: text4; */
     grid-area: 8 / 1 / 9 / 2;
+    align-self: center;
+    justify-self: center;
   }
 
   .images3 {
@@ -742,8 +754,10 @@ padding-right: 10px; */
     margin-top: 0.625rem;
   }
   .team-text {
-    max-width: 25rem;
+    display: block;
+    width: 23.6rem;
     margin-top: 0.625rem;
+    justify-content: center;
   }
   .team-img {
     display: none;
@@ -849,4 +863,106 @@ padding-right: 10px; */
     line-height: 0.625rem;
     padding-bottom: 0.3125rem;
   }
+}
+/*---------------------------------------------------------*/
+@media (max-width: 375px) {
+  body {
+    width: 23rem;
+  }
+  .container{
+    max-width:22.5rem;
+  }
+  .header-menu-link {
+    font-size: 0.7375rem;
+}
+.header-autor img {
+  width: 11.825rem;
+}
+.header-title img {
+  width: 9.225rem;
+}
+.header-title {
+  top: 5.7875rem;
+  left: 13.075rem;
+}
+.header-autor {
+  bottom: 0.3125rem;
+  right: 1.6rem;
+}
+  .main-team {
+    width: 22.5rem;
+  
+}
+  .team-item-images {
+    width: 23rem;
+}
+.main-image img {
+   width: 23rem;
+}
+.main-image {
+  width: 23rem;
+ 
+}
+.images1{
+  justify-self: center;
+}
+.team-text {
+  font-size: 1.06rem;
+  line-height: 1.1875rem;
+}
+.team-text {
+  display: block;
+  width: 23rem;
+  margin-top: 0.625rem;
+  
+}
+.header {
+  background-position: 0 0.625rem;
+  background-size: cover;
+  /* width: 25rem; */
+  height: 16.3rem;
+  position: relative;
+  max-width: 23.4375rem;
+}
+.command-foto {
+  width: 23rem;
+  margin: 0 auto;
+  /* height: 21.15rem; */
+}
+.command-foto img {
+  object-position: -0.1875rem -3.9875rem;
+ 
+  height: 9.05rem;
+}
+.foto-pris img {
+ 
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.foto-pris {
+  position: absolute;
+  top: 0.4375rem;
+  left: 16.975rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+}
+.list {
+  font-size: 0.6375rem;
+  line-height: 1.05rem;
+  width: 18.2rem;
+}
+.progects-title {
+  font-size: 1.55rem;
+  margin-top: 1.275rem;
+  margin-bottom: 1.25rem;
+}
+.footer-text {
+  padding: 0.35rem 0.45rem;
+  justify-content: center;
+  gap: .625rem;
+}
+.footer-right a {
+  font-size: 0.6125rem;
+}
 }
