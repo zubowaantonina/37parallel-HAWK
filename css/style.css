@@ -757,6 +757,7 @@ padding-right: 10px; */
     display: block;
     width: 23.6rem;
     margin-top: 0.625rem;
+    font-weight: 400;
     justify-content: center;
   }
   .team-img {
@@ -818,6 +819,9 @@ padding-right: 10px; */
   .foto-item:nth-child(5) {
     display: none;
   }
+  .foto-item {
+    margin-top: 1rem;
+}
   .list {
     font-size: 0.8375rem;
     line-height: 1.05rem;
@@ -829,7 +833,7 @@ padding-right: 10px; */
   }
   .progects-title {
     font-size: 2.35rem;
-    margin-top: 1.275rem;
+    margin-top: 3.475rem;
     margin-bottom: 1.25rem;
   }
   h1 {
@@ -874,6 +878,11 @@ padding-right: 10px; */
   }
   .header-menu-link {
     font-size: 0.7375rem;
+}
+.header-logo img {
+  width: 1.8125rem;
+  height: 2rem;
+  object-fit: cover;
 }
 .header-autor img {
   width: 11.825rem;
@@ -954,7 +963,7 @@ padding-right: 10px; */
 }
 .progects-title {
   font-size: 1.55rem;
-  margin-top: 1.275rem;
+  margin-top: 3.875rem;
   margin-bottom: 1.25rem;
 }
 .footer-text {
